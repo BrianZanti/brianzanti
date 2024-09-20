@@ -6,54 +6,58 @@
     <meta name="description" content="Portfolio of [Your Name]">
     <title>Brian Zanti - Portfolio</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   </head>
 
   <body>
     <header>
-      <h1>Brian Zanti</h1>
+      <h1><a href="index.html">Brian Zanti</a></h1>
       <p>Full Stack Engineer | Web Developer | Software Engineer</p>
+      <nav>
+        <ul>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
     </header>
 
-    <div class="content">
-      <section id="about">
-        <h2>About Me</h2>
-        <p>Hello! I'm [Your Name], a passionate web developer with experience in building web applications using
-          technologies like HTML, CSS, JavaScript, Ruby on Rails, and more. Welcome to my portfolio where you can explore
-          some of the projects I've worked on.</p>
-      </section>
+    <div class="content half-and-half" id="main-content">
+      <section id="about" class="half">
+        <p>  
+          Hello! I'm Brian, a dedicated software engineer with a passion for backend development and a strong command of
+          full-stack technologies. 
+        </p>
 
-      <section id="projects">
-        <h2>Projects</h2>
+        <p>
+          I currently specialize in Ruby on Rails and have experience with many languages and frameworks including
+          JavaScript/TypeScript, React, Java, Python, and C++.
+        </p>
 
-        <div class="project">
-          <h3>Project 1: <a href="https://github.com/yourusername/project1" target="_blank">Awesome Project</a></h3>
-          <p>A brief description of the project. Explain what it does, what technologies you used, and what you learned.
-          </p>
-        </div>
+        <p>
+          Welcome to my portfolio where you can explore some of the projects I've worked on!
+        </p>
 
-        <div class="project">
-          <h3>Project 2: <a href="https://github.com/yourusername/project2" target="_blank">Cool App</a></h3>
-          <p>Another brief description of a different project. Mention features, technologies used, and how it benefited
-            users.</p>
-        </div>
-
-        <div class="project">
-          <h3>Project 3: <a href="https://github.com/yourusername/project3" target="_blank">Portfolio Website</a></h3>
-          <p>This website itself can be a project to showcase your front-end skills! Describe how you built it using HTML,
-            CSS, and any other tools.</p>
+        <div id="nav-links">
+          <a href="projects.html">Projects</a>
+          <a href="about">About Me</a>
         </div>
       </section>
-
-      <section id="contact">
-        <h2>Contact</h2>
-        <p>Feel free to reach out if you'd like to connect or discuss a project!</p>
-        <ul>
-          <li>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></li>
-          <li>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></li>
-          <li>LinkedIn: <a href="https://www.linkedin.com/in/yourname" target="_blank">linkedin.com/in/yourname</a></li>
-        </ul>
-      </section>
+      
+      <div id="headshot-wrapper" class="half">
+        <img id="headshot" src="static/headshot.jpg" alt="headshot">
+      </div>
+      
     </div>
+    
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Feel free to reach out if you'd like to connect or discuss a project!</p>
+      <ul>
+        <li>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></li>
+        <li>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/yourname" target="_blank">linkedin.com/in/yourname</a></li>
+      </ul>
+    </section>
 
     <footer>
       <p>&copy; 2024 Brian Zanti</p>
