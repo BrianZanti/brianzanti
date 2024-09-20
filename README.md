@@ -1,5 +1,7 @@
 ## Hi there 👋
 
+I'm Brian. My joy has always been to build. Whether it was lego skyscrapers, software applications, or cohorts of students, I have always been drawn to the challenge of transforming potential into value. I am a versatile engineer and analytical thinker who is eager to solve problems. Let's connect! `brianzanti@gmail.com`
+
 <!--
 **BrianZanti/brianzanti** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
