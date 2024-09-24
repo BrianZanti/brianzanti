@@ -1,28 +1,8 @@
-header {
-  h1 {
-    font-size: 48px;
-    margin: 0;
-    color: rgb(220, 218, 218);
-  }
-
-  p {
-    margin-top: 0;
-    color: rgb(220, 218, 218);;
-  }
-
-  a {
-    color: rgb(220, 218, 218);;
-  }
-
-  color: rgb(220, 218, 218);
-  text-align: center;
-  margin: 0 0 5em 0;
-  border-bottom: 2px solid #333;
-  padding-bottom: 1em;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  background-color: rgb(59, 59, 59);
+:root {
+  --black: #000000;
+  --white: #FFFFFF;
+  --off-white: rgb(250,250,250);
+  --dark-grey: rgb(175, 175, 175)
 }
 
 body {
@@ -30,46 +10,23 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-nav ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-}
-
-nav ul li {
-  margin: 0 1em;
-}
-
-a {
-  text-decoration: none;
-  color: #333;
-}
-
-a:hover {
-  color: #0073e6;
-}
-
 #title {
   font-size: 48px;
   text-align: center;
-  margin-bottom: 2em;
+  margin: 0;
+  padding: 1em;
+  background-color: white;
+  box-shadow: 0 4px 6px -6px rgb(92, 92, 92);
 }
 
 p, li {
   font-size: 20px;
 }
 
-#headshot {
-  max-width: 500px;
-  max-height: 500px;
-}
-
 .half-and-half {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
 }
 
 @media (max-width: 768px) {
@@ -83,34 +40,7 @@ p, li {
   padding: 1em;
 }
 
-#headshot-wrapper {
-  text-align: center;
-}
-
-video {
-  text-align: center;
-  max-width: 100%;
-  height: auto;
-}
-
-.project-header {
-  h1 {
-    font-size: 36px;
-  }
-}
-
-.project {
-  div {
-    padding: 1em;
-  }
-
-  margin: 5em 0;
-}
-
-.project-group {
-  margin-bottom: 15em;
-}
-
 .content {
-  padding: 2em;
+  padding: 1em;
 }
+

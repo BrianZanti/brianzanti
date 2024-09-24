@@ -1,0 +1,8 @@
+#headshot-wrapper {
+  text-align: center;
+}
+
+#headshot {
+  max-width: 500px;
+  max-height: 500px;
+}
