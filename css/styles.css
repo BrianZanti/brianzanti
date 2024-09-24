@@ -42,5 +42,6 @@ p, li {
 
 .content {
   padding: 1em;
+  background-color: rgb(var(--off-white), 0.3)
 }
 
