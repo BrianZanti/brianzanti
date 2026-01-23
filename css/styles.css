@@ -1,8 +1,10 @@
 :root {
   --black: #000000;
+  --soft-black: #0B0F14;
   --white: #FFFFFF;
-  --off-white: rgb(250,250,250);
-  --dark-grey: rgb(175, 175, 175)
+  --off-white: #E6EAF0;
+  --dark-grey: rgb(175, 175, 175);
+  --navy: #0A2540;
 }
 
 body {
@@ -11,6 +13,7 @@ body {
 }
 
 #title {
+  color: var(--soft-black);
   font-size: 48px;
   text-align: center;
   margin: 0;
@@ -19,8 +22,17 @@ body {
   box-shadow: 0 4px 6px -6px rgb(92, 92, 92);
 }
 
-p, li {
+p, li, a {
+  color: var(--soft-black);
   font-size: 20px;
+}
+
+a {
+  color: var(--off-white);
+}
+
+a:hover {
+  color: var(--white);
 }
 
 .half-and-half {
@@ -42,6 +54,6 @@ p, li {
 
 .content {
   padding: 1em;
-  background-color: rgb(var(--off-white), 0.3)
+  background-color: var(--white)
 }
 

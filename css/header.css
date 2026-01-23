@@ -5,11 +5,11 @@
   position: sticky;
   top: 0;
   z-index: 1000;
-  background-color: black;
+  background-color: var(--navy);
   padding: 1em;
 }
 
-#header a {
+#header a, #footer a {
   text-decoration: none;
 }
 
@@ -20,14 +20,6 @@
 #home-link a {
   font-size: 48px;
   margin: 0;
-}
-
-#header a {
-  color: white;
-}
-
-#header a:hover {
-  color: var(--dark-grey);
 }
 
 #navigation {
@@ -48,20 +40,19 @@
 }
 
 .logo-link path {
-  fill: white;
+  fill: var(--off-white);
 }
 
 .logo-link:hover path {
-  fill: var(--dark-grey);
+  fill: var(--white);
 }
 
-footer {
-  background-color: black;
-  color: white;
+#footer {
+  background-color: var(--navy);
   text-align: center;
   padding: 1em;
 }
 
-footer a {
-  color: white;
+#footer p, #footer h2, #footer span {
+  color: var(--off-white);
 }

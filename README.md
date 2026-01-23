@@ -1,6 +1,4 @@
-## Hi there 👋
-
-I'm Brian. My joy has always been to build. Whether it was lego skyscrapers, software applications, or cohorts of students, I have always been drawn to the challenge of transforming potential into value. I am a versatile engineer and analytical thinker who is eager to solve problems. Let's connect! `brianzanti@gmail.com`
+Senior full-stack engineer specializing in Ruby on Rails and PostgreSQL, with experience across API design, data modeling, React, React Native, and AWS. Product-focused, collaborative, and comfortable owning work from idea to production.
 
 <!--
 **BrianZanti/brianzanti** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
